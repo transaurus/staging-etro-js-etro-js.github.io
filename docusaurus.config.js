@@ -10,7 +10,7 @@ const config = {
   tagline: "TypeScript video-editing framework for the web",
   url: "https://etrojs.dev",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.svg",
 
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-Hans"],
   },
 
   presets: [
